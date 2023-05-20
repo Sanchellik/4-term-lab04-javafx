@@ -43,6 +43,8 @@
                 GridPane.rowIndex="6"/>
         <Button fx:id="buttonPower" onAction="#processOperator" text="^" GridPane.columnIndex="1"
                 GridPane.rowIndex="6"/>
+        <Button fx:id="buttonBackspace" onAction="#processBackspace" text="&#9003;" GridPane.columnIndex="2"
+                GridPane.rowIndex="6"/>
         <columnConstraints>
             <ColumnConstraints/>
             <ColumnConstraints/>

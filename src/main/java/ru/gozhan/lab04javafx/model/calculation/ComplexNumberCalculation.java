@@ -24,4 +24,9 @@ public class ComplexNumberCalculation implements Calculation<ComplexNumber> {
         return new ComplexNumber(a.getValue().divide(b.getValue()));
     }
 
+    @Override
+    public ComplexNumber pow(ComplexNumber a, ComplexNumber b) {
+        return new ComplexNumber(a.getValue().pow(b.getValue()));
+    }
+
 }

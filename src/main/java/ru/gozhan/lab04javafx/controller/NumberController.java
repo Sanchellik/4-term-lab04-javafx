@@ -1,5 +1,6 @@
 package ru.gozhan.lab04javafx.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import ru.gozhan.lab04javafx.model.number.Number;
@@ -33,7 +34,18 @@ public abstract class NumberController<T extends Number> {
     }
 
     public void processSignChange() {
-        // To be overridden in child classes
+        if (!display.getText().isEmpty()) {
+            double currentValue = Double.parseDouble(display.getText());
+            display.setText(String.valueOf(-currentValue));
+        }
+    }
+
+    public void processBackspace(ActionEvent event) {
+        String currentText = display.getText();
+        if (!currentText.isEmpty()) {
+            String newText = currentText.substring(0, currentText.length() - 1);
+            display.setText(newText);
+        }
     }
 
 }

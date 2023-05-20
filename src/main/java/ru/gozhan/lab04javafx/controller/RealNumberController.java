@@ -41,7 +41,39 @@ public class RealNumberController extends NumberController<RealNumber> {
         }
 
         display.clear();
-        currentOperator = buttonText;
+
+        if (buttonText.equals("sqrt") || buttonText.equals("%")) {
+            try {
+                RealNumber result = buttonText.equals("sqrt") ? performSqrt(numbers) : performPercent(numbers);
+                display.setText(String.valueOf(result.getValue()));
+            } catch (IllegalArgumentException e) {
+                display.setText(e.getMessage());
+            }
+        } else {
+            currentOperator = buttonText;
+        }
+    }
+
+    private RealNumber performSqrt(List<RealNumber> numbers) {
+        if (numbers.isEmpty()) {
+            return new RealNumber(0);
+        }
+
+        RealNumber number = numbers.get(0);
+        numbers.clear();
+        RealNumberCalculation calculation = new RealNumberCalculation();
+        return calculation.sqrt(number);
+    }
+
+    private RealNumber performPercent(List<RealNumber> numbers) {
+        if (numbers.isEmpty()) {
+            return new RealNumber(0);
+        }
+
+        RealNumber number = numbers.get(0);
+        numbers.clear();
+        RealNumberCalculation calculation = new RealNumberCalculation();
+        return calculation.percent(number);
     }
 
     @FXML
@@ -68,7 +100,7 @@ public class RealNumberController extends NumberController<RealNumber> {
         }
 
         RealNumber result = numbers.get(0);
-        Calculation<RealNumber> calculation = new RealNumberCalculation();
+        RealNumberCalculation calculation = new RealNumberCalculation();
 
         for (int i = 1; i < numbers.size(); i++) {
             RealNumber number = numbers.get(i);
@@ -78,17 +110,12 @@ public class RealNumberController extends NumberController<RealNumber> {
                 case "-" -> calculation.subtract(result, number);
                 case "*" -> calculation.multiply(result, number);
                 case "/" -> calculation.divide(result, number);
+                case "mod" -> calculation.mod(result, number);
+                case "^" -> calculation.pow(result, number);
                 default -> throw new IllegalArgumentException("Invalid operator");
             };
         }
-
         return result;
-    }
-
-    @FXML
-    public void processSignChange(ActionEvent event) {
-        double currentValue = Double.parseDouble(display.getText());
-        display.setText(String.valueOf(-currentValue));
     }
 
 }

@@ -7,4 +7,6 @@ public interface Calculation<T> {
     T multiply(T a, T b);
     T divide(T a, T b);
 
+    T pow(T a, T b);
+
 }
