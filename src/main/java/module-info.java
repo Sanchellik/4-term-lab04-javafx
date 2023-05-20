@@ -7,6 +7,5 @@ module ru.gozhan.lab04javafx {
     opens ru.gozhan.lab04javafx to javafx.fxml;
     opens ru.gozhan.lab04javafx.controller to javafx.fxml;
 
-    exports ru.gozhan.lab04javafx;
     exports ru.gozhan.lab04javafx.application to javafx.graphics;
 }
