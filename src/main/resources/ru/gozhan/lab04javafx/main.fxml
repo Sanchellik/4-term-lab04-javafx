@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gozhan.lab04javafx.controller.MainController">
+
+    <Button fx:id="realNumbersButton" layoutX="210.0" layoutY="124.0" onAction="#goToRealNumbersCalculator"
+            text="Real Numbers Calculator"/>
+    <Button fx:id="complexNumbersButton" layoutX="196.0" layoutY="239.0" onAction="#goToComplexNumbersCalculator"
+            text="Complex Numbers Calculator"/>
+
+</AnchorPane>

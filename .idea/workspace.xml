@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ced3dea4-a913-4d97-b433-e987fdec814c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/ComplexNumberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/NumberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/RealNumberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/ComplexNumberCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/RealNumberCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/number/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/number/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/number/RealNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/view/complex-number.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/view/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/view/real-number.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/complex-number.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/main.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="2Q1P19peQUVrmUF6G4SdfOKwFRY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/sanchellik/Documents/bmstu/4 term/prog/lab04-javafx/src/main/resources/ru/gozhan/lab04javafx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.gozhan.lab04javafx.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx" />
+      <recent name="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/number" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HelloApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.gozhan.lab04javafx.HelloApplication" />
+      <module name="lab04-javafx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.gozhan.lab04javafx.application.Main" />
+      <module name="lab04-javafx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.Main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ced3dea4-a913-4d97-b433-e987fdec814c" name="Changes" comment="" />
+      <created>1684517896955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684517896955</updated>
+      <workItem from="1684517898036" duration="32000" />
+      <workItem from="1684518134905" duration="286000" />
+      <workItem from="1684518436541" duration="70000" />
+      <workItem from="1684518790374" duration="500000" />
+      <workItem from="1684519298637" duration="566000" />
+      <workItem from="1684526722687" duration="51000" />
+      <workItem from="1684526783372" duration="788000" />
+      <workItem from="1684527582199" duration="4905000" />
+      <workItem from="1684535636920" duration="527000" />
+      <workItem from="1684536173472" duration="96000" />
+      <workItem from="1684537499521" duration="1383000" />
+      <workItem from="1684578376416" duration="4600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ru.gozhan.lab04javafx.controller.ComplexNumberController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <GridPane hgap="10" vgap="10">
+        <TextField fx:id="display" editable="false" GridPane.columnSpan="4" />
+
+        <Button text="1" onAction="#processNumpad" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Button text="2" onAction="#processNumpad" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button text="3" onAction="#processNumpad" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button text="+" onAction="#processOperator" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+
+        <Button text="4" onAction="#processNumpad" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Button text="5" onAction="#processNumpad" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button text="6" onAction="#processNumpad" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button text="-" onAction="#processOperator" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+
+        <Button text="7" onAction="#processNumpad" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Button text="8" onAction="#processNumpad" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button text="9" onAction="#processNumpad" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button text="*" onAction="#processOperator" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+
+        <Button text="0" onAction="#processNumpad" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Button text="." onAction="#processNumpad" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Button text="=" onAction="#processEquals" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button text="/" onAction="#processOperator" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+
+        <Button text="C" onAction="#processClear" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Button text="+/-" onAction="#processSignChange" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Button text="i" onAction="#processNumpad" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Button text="mod" onAction="#processOperator" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    </GridPane>
+
+</AnchorPane>
