@@ -8,43 +8,43 @@ import ru.gozhan.lab04javafx.model.number.Number;
 public abstract class NumberController<T extends Number> {
 
     @FXML
-    protected TextField display;
+    protected TextField realDisplay;
 
     protected T firstNumber;
     protected T secondNumber;
     protected String currentOperator;
 
-    public void processNumpad() {
+    public void processNumpad(ActionEvent event) {
         // To be overridden in child classes
     }
 
-    public void processOperator() {
+    public void processOperator(ActionEvent event) {
         // To be overridden in child classes
     }
 
-    public void processEquals() {
+    public void processEquals(ActionEvent event) {
         // To be overridden in child classes
     }
 
-    public void processClear() {
+    public void processClear(ActionEvent event) {
         firstNumber = null;
         secondNumber = null;
         currentOperator = null;
-        display.clear();
+        realDisplay.clear();
     }
 
     public void processSignChange() {
-        if (!display.getText().isEmpty()) {
-            double currentValue = Double.parseDouble(display.getText());
-            display.setText(String.valueOf(-currentValue));
+        if (!realDisplay.getText().isEmpty()) {
+            double currentValue = Double.parseDouble(realDisplay.getText());
+            realDisplay.setText(String.valueOf(-currentValue));
         }
     }
 
     public void processBackspace(ActionEvent event) {
-        String currentText = display.getText();
+        String currentText = realDisplay.getText();
         if (!currentText.isEmpty()) {
             String newText = currentText.substring(0, currentText.length() - 1);
-            display.setText(newText);
+            realDisplay.setText(newText);
         }
     }
 

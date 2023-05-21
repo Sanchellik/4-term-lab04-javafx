@@ -3,7 +3,6 @@ package ru.gozhan.lab04javafx.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import ru.gozhan.lab04javafx.model.calculation.Calculation;
 import ru.gozhan.lab04javafx.model.calculation.RealNumberCalculation;
 import ru.gozhan.lab04javafx.model.number.RealNumber;
 
@@ -23,11 +22,11 @@ public class RealNumberController extends NumberController<RealNumber> {
         Button button = (Button) event.getSource();
         String buttonText = button.getText();
 
-        if (buttonText.equals(".") && display.getText().contains(".")) {
+        if (buttonText.equals(".") && realDisplay.getText().contains(".")) {
             return;
         }
 
-        display.setText(display.getText() + buttonText);
+        realDisplay.setText(realDisplay.getText() + buttonText);
     }
 
     @FXML
@@ -35,19 +34,19 @@ public class RealNumberController extends NumberController<RealNumber> {
         Button button = (Button) event.getSource();
         String buttonText = button.getText();
 
-        if (!display.getText().isEmpty()){
-            double value = Double.parseDouble(display.getText());
+        if (!realDisplay.getText().isEmpty()){
+            double value = Double.parseDouble(realDisplay.getText());
             numbers.add(new RealNumber(value));
         }
 
-        display.clear();
+        realDisplay.clear();
 
         if (buttonText.equals("sqrt") || buttonText.equals("%")) {
             try {
                 RealNumber result = buttonText.equals("sqrt") ? performSqrt(numbers) : performPercent(numbers);
-                display.setText(String.valueOf(result.getValue()));
+                realDisplay.setText(String.valueOf(result.getValue()));
             } catch (IllegalArgumentException e) {
-                display.setText(e.getMessage());
+                realDisplay.setText(e.getMessage());
             }
         } else {
             currentOperator = buttonText;
@@ -77,17 +76,17 @@ public class RealNumberController extends NumberController<RealNumber> {
     }
 
     @FXML
-    public void processEquals() {
-        if (!display.getText().isEmpty()){
-            double value = Double.parseDouble(display.getText());
+    public void processEquals(ActionEvent event) {
+        if (!realDisplay.getText().isEmpty()){
+            double value = Double.parseDouble(realDisplay.getText());
             numbers.add(new RealNumber(value));
         }
 
         try {
             RealNumber result = performCalculation(numbers);
-            display.setText(String.valueOf(result.getValue()));
+            realDisplay.setText(String.valueOf(result.getValue()));
         } catch (IllegalArgumentException e) {
-            display.setText(e.getMessage());
+            realDisplay.setText(e.getMessage());
         }
 
         numbers.clear();

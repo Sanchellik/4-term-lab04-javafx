@@ -29,4 +29,8 @@ public class ComplexNumberCalculation implements Calculation<ComplexNumber> {
         return new ComplexNumber(a.getValue().pow(b.getValue()));
     }
 
+    public double mod(ComplexNumber a) {
+        return a.getValue().abs();
+    }
+
 }

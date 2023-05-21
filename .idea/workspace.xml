@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ced3dea4-a913-4d97-b433-e987fdec814c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/ComplexNumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/ComplexNumberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/NumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/NumberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/RealNumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/controller/RealNumberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/Calculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/ComplexNumberCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/ComplexNumberCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/RealNumberCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gozhan/lab04javafx/model/calculation/RealNumberCalculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/complex-number.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/complex-number.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/real-number.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru/gozhan/lab04javafx/real-number.fxml" afterDir="false" />
     </list>
@@ -117,6 +116,7 @@
       <workItem from="1684536173472" duration="96000" />
       <workItem from="1684537499521" duration="1383000" />
       <workItem from="1684578376416" duration="9050000" />
+      <workItem from="1684673013315" duration="4486000" />
     </task>
     <servers />
   </component>

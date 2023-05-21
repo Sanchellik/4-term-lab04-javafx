@@ -6,7 +6,7 @@
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gozhan.lab04javafx.controller.RealNumberController">
 
     <GridPane hgap="10" layoutX="75.0" layoutY="41.0" prefHeight="245.0" prefWidth="203.0" vgap="10">
-        <TextField fx:id="display" editable="false" GridPane.columnSpan="4"/>
+        <TextField fx:id="realDisplay" editable="false" GridPane.columnSpan="4"/>
 
         <Button fx:id="button1" onAction="#processNumpad" text="1" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
         <Button fx:id="button2" onAction="#processNumpad" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
